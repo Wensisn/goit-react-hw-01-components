@@ -1,18 +1,16 @@
-import { Profile } from "./Profile/Profile";
-import user from '../'
+import { Profile } from './Profile/Profile';
+import { Statistic } from './Statistics/Statistic'
+import css from 'App.module.css'
+import users from 'user.json'
+import statistics from 'data.json'
+
 export const App = () => {
   return (
     <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
+      className={css.all}
     >
-      <Profile users={user} />
+      <Profile user={users} />
+      <Statistic events={statistics}/>
     </div>
   );
 };
