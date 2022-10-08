@@ -14,6 +14,6 @@ export const EventTrans = ({ id, type, amount , currency }) => {
 EventTrans.propTypes = {
     id: PropTypes.number.isRequired,
     type: PropTypes.string.isRequired, 
-    amount: PropTypes.number.isRequired,
+    amount: PropTypes.string.isRequired,
     currency: PropTypes.string.isRequired ,
 }
