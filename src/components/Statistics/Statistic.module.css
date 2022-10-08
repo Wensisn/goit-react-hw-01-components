@@ -6,6 +6,8 @@
 .statistics{
 margin-top: 100px;
 background-color: #a5a3a336;
+display: flex;
+flex-direction: column;
 }
 
 .title{

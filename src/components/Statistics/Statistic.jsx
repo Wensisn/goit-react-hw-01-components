@@ -14,3 +14,15 @@ export const Statistic = ({ events}) => {
         </section>
         </div>)
 };
+
+
+
+Statistic.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    label: PropTypes.string.isRequired, 
+    percentag: PropTypes.string.isRequired ,
+    })
+  ).isRequired,
+};

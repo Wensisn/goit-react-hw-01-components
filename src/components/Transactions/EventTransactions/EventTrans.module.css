@@ -1,0 +1,9 @@
+.trItem{
+  display: flex;
+  
+}
+
+.tdItem{
+  display: flex;
+  width: 100px;
+}

@@ -3,7 +3,6 @@ import randomColors from './randomColor'
 import css from './EventStatic.module.css'
 
 export const EventStatic = ({ id, label, percentage }) => {
-  
    return (
     <li id="randomColors" className={css.item} key={id}>
       <span className={css.label}>{label}</span>

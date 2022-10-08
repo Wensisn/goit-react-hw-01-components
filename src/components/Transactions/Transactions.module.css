@@ -1,0 +1,8 @@
+.containerList{
+    display: flex;
+}
+
+.thItem{
+    display: flex;
+    width: 100px;
+}
