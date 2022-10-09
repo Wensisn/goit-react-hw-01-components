@@ -1,8 +1,25 @@
+.table{
+width: 600px; 
+}
+
 .containerList{
-    display: flex;
+    text-align: center;
+    background-color: #6bc5c5;
 }
 
 .thItem{
-    display: flex;
-    width: 100px;
+    vertical-align: center;
+        width: calc(100% / 3);
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px;
+        text-transform: uppercase;
+        border: 1px solid rgb(56, 126, 54);
+        background-color: darkgreen;
 }
+
+.tablebody{
+        color: #696969;    
+}
+
+

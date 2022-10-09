@@ -4,15 +4,15 @@ import css from './Transactions.module.css';
 
 export const Transaction = ({item}) => {
     return (<div className={css.container}>
-       <table >
-<thead>
-    <tr  className={css.containerList}>
+       <table className={css.table}>
+<thead className={css.titleList}>
+    <tr>
       <th className={css.thItem}>Type</th>
       <th className={css.thItem}>Amount</th>
       <th className={css.thItem}>Currency</th>
     </tr>
 </thead>
-  <tbody>
+  <tbody className={css.tablebody}>
       {item.map(event => (
         <EventTrans key={event.id}
         type={event.type}
