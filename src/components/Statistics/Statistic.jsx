@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 import { EventStatic } from './EventStatistic/EventStatic';
 import css from './Statistic.module.css';
 
-export const Statistic = ({ statistics }) => {
+export const Statistic = ({title , statistics  }) => {
   return (
     <div className={css.container}>
       <section className={css.statistics}>
-        <h2 className={css.title}>Upload stats</h2>
+        {title ? <h2 className={css.title}>{title}</h2> : null}
         <ul className={css.statList}>
           {statistics.map(event => (
             <EventStatic
@@ -20,6 +20,7 @@ export const Statistic = ({ statistics }) => {
     </div>
   );
 };
+
 
 Statistic.propTypes = {
   statistics: PropTypes.arrayOf(
