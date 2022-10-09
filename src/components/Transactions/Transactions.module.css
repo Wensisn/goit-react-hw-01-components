@@ -1,25 +1,23 @@
-.table{
-width: 600px; 
+.table {
+  width: 600px;
 }
 
-.containerList{
-    text-align: center;
-    background-color: #6bc5c5;
+.containerList {
+  text-align: center;
+  background-color: #6bc5c5;
 }
 
-.thItem{
-    vertical-align: center;
-        width: calc(100% / 3);
-        font-size: 14px;
-        font-weight: 700;
-        padding: 10px;
-        text-transform: uppercase;
-        border: 1px solid rgb(56, 126, 54);
-        background-color: darkgreen;
+.thItem {
+  vertical-align: center;
+  width: calc(100% / 3);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid rgb(56, 126, 54);
+  background-color: darkgreen;
 }
 
-.tablebody{
-        color: #696969;    
+.tablebody {
+  color: #696969;
 }
-
-

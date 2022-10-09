@@ -1,20 +1,19 @@
-
-.item{
-    border: 2px solid rgb(138, 121, 121);
-    display: flex;
-    gap:30px;
-    align-items: center;
-    width: 200px;
-    height: 100px;
-    padding: 10px;
+.item {
+  border: 2px solid rgb(138, 121, 121);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
 }
-.status{
-display: inline-block ;
-width: 17px;
-height: 17px;
-border-radius: 50%;
+.status {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
 }
 
-.status.isOnline{
-    background-color: green;
+.status.isOnline {
+  background-color: green;
 }

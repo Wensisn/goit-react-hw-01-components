@@ -1,25 +1,19 @@
-.container{
- 
-    
+.statistics {
+  margin-top: 100px;
+  background-color: #a5a3a336;
+  display: flex;
+  flex-direction: column;
 }
 
-.statistics{
-margin-top: 100px;
-background-color: #a5a3a336;
-display: flex;
-flex-direction: column;
-}
-
-.title{
- display: flex;
- justify-content: center;
+.title {
+  display: flex;
+  justify-content: center;
 }
 
 .statList {
-    padding: 0;
-    list-style-type: none;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
-
